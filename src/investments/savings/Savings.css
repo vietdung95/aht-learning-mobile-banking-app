@@ -1,0 +1,61 @@
+.savings-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.savings-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.savings-form input, .savings-form select {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.savings-btn {
+  padding: 10px 20px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.savings-btn:hover {
+  background: #1565c0;
+}
+.savings-success {
+  color: #388e3c;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.savings-error {
+  color: #d32f2f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.savings-list {
+  width: 100%;
+  margin-top: 8px;
+}
+.savings-item {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

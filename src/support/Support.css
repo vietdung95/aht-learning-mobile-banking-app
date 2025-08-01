@@ -1,0 +1,72 @@
+.support-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.support-chat {
+  width: 100%;
+  min-height: 120px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.support-msg.bot {
+  align-self: flex-start;
+  background: #e3f2fd;
+  color: #1976d2;
+  border-radius: 8px 8px 8px 0;
+  padding: 6px 12px;
+  max-width: 80%;
+}
+.support-msg.user {
+  align-self: flex-end;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 8px 8px 0 8px;
+  padding: 6px 12px;
+  max-width: 80%;
+}
+.support-form {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.support-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.support-form button {
+  padding: 10px 16px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.support-faq {
+  width: 100%;
+  margin-top: 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px;
+}
+.support-faq-item {
+  margin-bottom: 4px;
+  font-size: 15px;
+}
